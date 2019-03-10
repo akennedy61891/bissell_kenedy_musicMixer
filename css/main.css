@@ -6,3 +6,86 @@
 	display: none;
 }
 
+body {
+	background-color: #ff6961;
+}
+
+.logoName {
+	font-size: 45px;
+	font-family: Arial, helvetica, sans-serif;
+	color: red;
+	margin: 20px;
+	margin-left: 300px;
+}
+
+#mainHeader {
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav {
+	margin-left: auto;
+	margin-right: 300px;
+	margin-top: 20px;
+}
+
+#mainNav ul{
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#mainNav li a {
+	margin: 5px;
+	padding: 5px;
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainNav li a:hover {
+	background-color: maroon;
+}
+
+#musicBox {
+	width: 800px;
+	height: 400px;
+	border: 2px solid black;
+	margin: 0 auto;
+	margin-top: 70px;
+
+}
+
+#musicIcons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 800px;
+}
+
+.box1, .box2, .box3, .box4 {
+	border: 2px solid black;
+	width: 50px;
+	height: 50px;
+}
+
+.box1 {
+	background-color: orange;
+}
+
+.box2 {
+	background-color: blue;
+}
+
+.box3 {
+	background-color: green;
+}
+
+.box4 {
+	background-color: yellow; 
+}

@@ -7,15 +7,15 @@
 }
 
 body {
-	background-color: #EFA0A0;
+	background-color: #161616;
 }
 
 .logoName {
-	font-size: 45px;
+	font-size: 30px;
 	font-family: Arial, helvetica, sans-serif;
-	color: red;
+	color: white;
 	margin: 20px;
-	margin-left: 300px;
+	margin-left: 200px;
 }
 
 #mainHeader {
@@ -25,7 +25,7 @@ body {
 
 #mainNav {
 	margin-left: auto;
-	margin-right: 300px;
+	margin-right: 200px;
 	margin-top: 20px;
 }
 
@@ -39,7 +39,7 @@ body {
 #mainNav li a {
 	margin: 5px;
 	padding: 5px;
-	color: red;
+	color: white;
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
@@ -51,19 +51,30 @@ body {
 }
 
 .stage {
-	width: 55%;
-	height: 55%;
+	width: 800px;
+	
 	margin-top: 22.5px;
-	margin-left: 22.5%;
+	border-radius: 10px;
+	border: 3px solid #D1A900;
 
 }
 
 #musicIcons {
+	background-color: #efefef;
+	border-radius: 10px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	margin: 0 auto;
-	margin-top: 20px;
 	margin-bottom: 20px;
-	width: 1100px;
+	width:806px;
+
+}
+
+#musicIcons img {
+	width: 120px;
+}
+
+#content {
+	margin: 0 auto;
+	width: 800px;
 }

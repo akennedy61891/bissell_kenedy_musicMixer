@@ -6,3 +6,64 @@
 	display: none;
 }
 
+body {
+	background-color: #EFA0A0;
+}
+
+.logoName {
+	font-size: 45px;
+	font-family: Arial, helvetica, sans-serif;
+	color: red;
+	margin: 20px;
+	margin-left: 300px;
+}
+
+#mainHeader {
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav {
+	margin-left: auto;
+	margin-right: 300px;
+	margin-top: 20px;
+}
+
+#mainNav ul{
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#mainNav li a {
+	margin: 5px;
+	padding: 5px;
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainNav li a:hover {
+	background-color: maroon;
+}
+
+.stage {
+	width: 55%;
+	height: 55%;
+	margin-top: 22.5px;
+	margin-left: 22.5%;
+
+}
+
+#musicIcons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 1100px;
+}

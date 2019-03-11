@@ -52,11 +52,11 @@ body {
 
 .stage {
 	width: 800px;
-	
+	height: 526px;
 	margin-top: 22.5px;
 	border-radius: 10px;
 	border: 3px solid #D1A900;
-
+	background-image: url('../images/puppet-stage.svg')
 }
 
 #musicIcons {

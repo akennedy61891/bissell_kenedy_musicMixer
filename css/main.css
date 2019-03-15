@@ -59,6 +59,20 @@ body {
 	background-image: url('../images/puppet-stage.svg')
 }
 
+.drop-zone {
+	width: 25%;
+	height:100%;
+	position: relative;
+	float:left;	
+}
+
+.drop-zone img {
+	width: auto !important;
+	padding: 0 !important;
+	cursor: default;
+	position: absolute;
+}
+
 #musicIcons {
 	background-color: #efefef;
 	border-radius: 10px;

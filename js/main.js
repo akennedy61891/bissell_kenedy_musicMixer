@@ -4,6 +4,11 @@
 	// set up variables first
 	let musicicons = document.querySelectorAll('#musicIcons img');
 
+	let dropDapper  = document.querySelector('.dzDapper'),
+		dropDrum    = document.querySelector('.dzDrum'),
+		dropGiraffe = document.querySelector('.dzGiraffe'),
+		dropHair    = document.querySelector('.dzHair');
+
 	let plain = document.querySelector('.plainSock'),
 		dapper = document.querySelector('.dapper'),
 		drum = document.querySelector('.drum'),
@@ -12,7 +17,7 @@
 
 	let dropzones = document.querySelectorAll('.drop-zone');
 
-
+	function
 
 
 	function initDrag() {

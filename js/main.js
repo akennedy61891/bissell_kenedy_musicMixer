@@ -67,32 +67,28 @@
 	one.addEventListener('drop', function(e){
 	e.preventDefault();
 	console.log('dropped dapper');
-		bunny.classList.remove('invisible');
-		playBunny();
+		dapper.classList.remove('invisible');
 });
 
 
 	two.addEventListener('drop', function(e){
 	e.preventDefault();
 	console.log('dropped giraffe');
-		owl.classList.remove('invisible')
-		playOwl();
+		giraffe.classList.remove('invisible')
 });
 
 
 	three.addEventListener('drop', function(e){
 	e.preventDefault();
 	console.log('dropped drum');
-		fox.classList.remove('invisible')
-		playFox();
+		drum.classList.remove('invisible')
 });
 
 
 	four.addEventListener('drop', function(e){
 	e.preventDefault();
 	console.log('dropped hair');
-		squirrel.classList.remove('invisible')
-		playSquirrel();
+		hair.classList.remove('invisible')
 });
 
 

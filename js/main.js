@@ -4,10 +4,10 @@
 	// set up variables first
 	let musicicons  = document.querySelectorAll('#musicIcons img');
 
-	// let dapAudio = new Audio('music/beat.mp3'),
-	//     drumAudio = new Audio('music/drums.mp3'),
-	//     girAudio = new Audio('music/piano.mp3'),
- // 	    hairAudio = new Audio('music/robot-voice.mp3');
+	let dapAudio = new Audio('music/beat.mp3'),
+	    drumAudio = new Audio('music/drums.mp3'),
+	    girAudio = new Audio('music/piano.mp3'),
+ 	    hairAudio = new Audio('music/robot-voice.mp3');
 
 	let dropDapper  = document.querySelector('.dzDapper'),
 		dropDrum    = document.querySelector('.dzDrum'),
@@ -28,6 +28,32 @@
 
 
 
+	function playDapper(){
+		dapperAudio.currentTime = 0;
+		dapperAudio.loop = true;
+		dapperAudio.play();
+	};
+
+	function playDrum(){
+		dapperAudio.currentTime = 0;
+		dapperAudio.loop = true;
+		drumAudio.play();
+	};
+
+	function playGiraffe(){
+		dapperAudio.currentTime = 0;
+		dapperAudio.loop = true;
+		giraffeAudio.play();
+	};
+
+	function playHair(){
+		dapperAudio.currentTime = 0;
+		dapperAudio.loop = true;
+		hairAudio.play();
+	};
+
+
+
 
 
 
@@ -41,11 +67,12 @@
 	});
 }
 
-	dropzones.addEventListener('dragover', function(e){
+	dropzones.forEach(dropzone => {
+	dropzone.addEventListener('dragover', function(e){
+		console.log('dragging over...')
 		e.preventDefault();
-		console.log('dropping?')
+})
 });
-
 
 
 
@@ -56,31 +83,31 @@
 	e.preventDefault();
 	console.log('dropped dapper');
 		dropDapper.classList.remove('invisible');
-		// playDapper();
+		playDapper();
 });
 
 
 	two.addEventListener('drop', function(e){
 	e.preventDefault();
 	console.log('dropped drum');
-		dropDrum.classList.remove('invisible')
-		// playDrum();
+		dropDrum.classList.remove('invisible');
+		playDrum();
 });
 
 
 	three.addEventListener('drop', function(e){
 	e.preventDefault();
 	console.log('dropped giraffe');
-		dropGiraffe.classList.remove('invisible')
-		// playGiraffe();
+		dropGiraffe.classList.remove('invisible');
+		playGiraffe();
 });
 
 
 	four.addEventListener('drop', function(e){
 	e.preventDefault();
 	console.log('dropped hair');
-		dropHair.classList.remove('invisible')
-		// playHair();
+		dropHair.classList.remove('invisible');
+		playHair();
 });
 
 

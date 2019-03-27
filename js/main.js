@@ -29,26 +29,26 @@
 
 
 	function playDapper(){
-		dapperAudio.currentTime = 0;
-		dapperAudio.loop = true;
-		dapperAudio.play();
+		dapAudio.currentTime = 0;
+		dapAudio.loop = true;
+		dapAudio.play();
 	};
 
 	function playDrum(){
-		dapperAudio.currentTime = 0;
-		dapperAudio.loop = true;
+		drumAudio.currentTime = 0;
+		drumAudio.loop = true;
 		drumAudio.play();
 	};
 
 	function playGiraffe(){
-		dapperAudio.currentTime = 0;
-		dapperAudio.loop = true;
-		giraffeAudio.play();
+		girAudio.currentTime = 0;
+		girAudio.loop = true;
+		girAudio.play();
 	};
 
 	function playHair(){
-		dapperAudio.currentTime = 0;
-		dapperAudio.loop = true;
+		hairAudio.currentTime = 0;
+		hairAudio.loop = true;
 		hairAudio.play();
 	};
 

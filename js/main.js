@@ -28,36 +28,9 @@
 
 
 
-	function playDapper(){
-		dapAudio.currentTime = 0;
-		dapAudio.loop = true;
-		dapAudio.play();
-	};
-
-	function playDrum(){
-		drumAudio.currentTime = 0;
-		drumAudio.loop = true;
-		drumAudio.play();
-	};
-
-	function playGiraffe(){
-		girAudio.currentTime = 0;
-		girAudio.loop = true;
-		girAudio.play();
-	};
-
-	function playHair(){
-		hairAudio.currentTime = 0;
-		hairAudio.loop = true;
-		hairAudio.play();
-	};
 
 
-
-
-
-
-
+	
 	function drag() {
 	dropzones.querySelectorAll('img').forEach(img =>{
 		img.addEventListener('dragstart', function(e){
@@ -76,8 +49,14 @@
 
 
 
+	
 
 
+	function playDapper(){
+		dapAudio.currentTime = 0;
+		dapAudio.loop = true;
+		dapAudio.play();
+	};
 
 	one.addEventListener('drop', function(e){
 	e.preventDefault();
@@ -87,6 +66,16 @@
 });
 
 
+
+
+
+
+	function playDrum(){
+		drumAudio.currentTime = 0;
+		drumAudio.loop = true;
+		drumAudio.play();
+	};
+
 	two.addEventListener('drop', function(e){
 	e.preventDefault();
 	console.log('dropped drum');
@@ -95,6 +84,16 @@
 });
 
 
+
+
+
+
+	function playGiraffe(){
+		girAudio.currentTime = 0;
+		girAudio.loop = true;
+		girAudio.play();
+	};
+
 	three.addEventListener('drop', function(e){
 	e.preventDefault();
 	console.log('dropped giraffe');
@@ -102,6 +101,14 @@
 		playGiraffe();
 });
 
+
+
+
+	function playHair(){
+			hairAudio.currentTime = 0;
+			hairAudio.loop = true;
+			hairAudio.play();
+		};
 
 	four.addEventListener('drop', function(e){
 	e.preventDefault();

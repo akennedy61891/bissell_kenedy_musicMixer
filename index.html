@@ -1,4 +1,4 @@
-<!doctype html> 
+<!doctype html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -24,20 +24,25 @@
 	<!-- where we will put our music mixer-->
 		<section id="content">
 			<div class="stage">
-				<div class="drop-zone one"></div>
-				<div class="drop-zone two"></div>
-				<div class="drop-zone three"></div>
-				<div class="drop-zone four"></div>
+				<div class="drop-zone" id="one">
+					<img id="bowtie" src="images/dapper-sock.svg" class="dzDapper invisible"></div>
+				<div class="drop-zone" id="two">
+					<img id="drum" src="images/drummer-sock.svg" class="dzDrum invisible"></div>
+				<div class="drop-zone" id="three">
+					<img id="giraffe" src="images/giraffe-sock.svg" class="dzGiraffe invisible"></div>
+				<div class="drop-zone" id="four">
+					<img id="hair" src="images/hair-sock.svg" class="dzHair invisible"></div>
 			</div><!-- main area for music to be displayed-->
 
-
+		<div id="options">
 			<div id="musicIcons"><!--where we put the material for the songs-->
-				<img src="images/plain-sock.svg" alt="plain sock" class="plainSock">
-				<img src="images/mustache-and-bowtie.svg" alt="dapper sock" class="dapper icons">
-				<img src="images/drum.svg" alt="drummer sock" class="drum icons">
-				<img src="images/giraffe-pattern.svg" alt="giraffe sock" class="giraffe icons">
-				<img src="images/hair.svg" alt="hair sock" class="hair icons">
+				<img id="bowtie" src="images/dapper-sock.svg" alt="dapper sock" class="dapper icons" draggable>
+				<img id="drum" src="images/drummer-sock.svg" alt="drummer sock" class="drum icons" draggable>
+				<img id="giraffe" src="images/giraffe-sock.svg" alt="giraffe sock" class="giraffe icons" draggable>
+				<img id="hair" src="images/hair-sock.svg" alt="hair sock" class="hair icons" draggable>
 			</div>
+			<div id="resetIcons"><h1>RESET</h1></div>
+		</div>
 		</section>
 
 	</div>

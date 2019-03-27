@@ -59,15 +59,59 @@ body {
 	background-image: url('../images/puppet-stage.svg')
 }
 
+.drop-zone {
+	padding-top:210px;
+	width: 25%;
+	height: 25%;
+	position: relative;
+	float:left;	
+}
+
+.drop-zone img {
+	width: auto !important;
+	padding: 0 !important;
+	cursor: default;
+	position: absolute;
+}
+
+.invisible{
+	opacity: .10;
+}
+
+.visible {
+	display: inline;
+}
+
+#options {
+	display: flex;
+	flex-direction: row;
+}
+
 #musicIcons {
 	background-color: #efefef;
 	border-radius: 10px;
+	border: 1px solid #D1A900;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	margin-bottom: 20px;
-	width:806px;
+	width:650px;
+}
 
+#resetIcons {
+	width: 200px;
+	height: 150px;
+	background-color: #efefef;
+	border-radius: 10px;
+	border: 1px solid #D1A900;
+}
+
+#resetIcons h1 {
+	font-size: 30px;
+	font-family: Arial, helvetica, sans-serif;
+	color: #D1A900;
+	text-align: center;
+	margin-top: 60px;
 }
 
 #musicIcons img {

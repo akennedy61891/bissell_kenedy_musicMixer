@@ -68,10 +68,12 @@ body {
 }
 
 .drop-zone img {
-	width: auto !important;
+	width: 65% !important;
 	padding: 0 !important;
 	cursor: default;
 	position: absolute;
+	margin-top: 75px;
+	margin-left: 27px;
 }
 
 .invisible{
